@@ -1,7 +1,7 @@
 .places {
     max-width: 984px;
     margin: 0 auto;
-    padding: 0;
+    padding: 92px 0 92px 0;
 }
 
 @media (max-width: 1024px) {
@@ -22,5 +22,6 @@
 
     .places {
         max-width: calc(100% - 16px * 2);
+        padding: 64px 0 66px 0;
     }
 }

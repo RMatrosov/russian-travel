@@ -1,4 +1,4 @@
-.place__item {
+.place {
     margin-bottom: 80px;
     list-style: none;
     display: grid;
@@ -10,26 +10,26 @@
 
 }
 
-.place__item:last-child {
+.place:last-child {
     margin-bottom: 0;
 }
 
 @media (max-width: 1024px) {
-    .place__item {
+    .place {
         grid-gap: 48px 32px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .place__item {
+    .place {
         grid-gap: 48px 28px;
     }
 }
 
 @media (max-width: 700px) {
 
-    .place__item {
+    .place {
         justify-content: center;
         gap: 32px;
         grid-template-areas:
@@ -42,7 +42,7 @@
 
 @media (max-width: 320px) {
 
-    .place__item {
+    .place {
         gap: 32px;
         grid-template-areas:
         "title"
