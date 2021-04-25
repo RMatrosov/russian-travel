@@ -27,3 +27,10 @@
         line-height: 35px;
     }
 }
+
+@media (max-width: 320px) {
+
+    .places__title {
+        margin: 0 16px 0 16px;
+    }
+}

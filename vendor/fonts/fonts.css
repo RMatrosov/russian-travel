@@ -13,3 +13,11 @@
     src: url(Inter-Regular.otf);
 
 }
+
+@font-face {
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Inter-Bold.otf);
+
+}
