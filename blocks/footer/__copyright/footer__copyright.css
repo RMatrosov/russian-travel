@@ -1,5 +1,5 @@
 .footer__copyright {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     font-weight: normal;
     font-size: 14px;
@@ -8,8 +8,7 @@
 }
 
 @media (max-width: 700px) {
-
-    .footer__copyright{
+    .footer__copyright {
         padding-top: 64px;
     }
 }

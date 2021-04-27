@@ -6,7 +6,6 @@
     grid-template-areas:
         "title website"
         "image text";
-
 }
 
 .place:last-child {
@@ -20,28 +19,14 @@
 }
 
 @media (max-width: 768px) {
-
     .place {
         grid-gap: 48px 28px;
     }
 }
 
 @media (max-width: 700px) {
-
     .place {
         justify-content: center;
-        gap: 32px;
-        grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "text";
-    }
-}
-
-@media (max-width: 320px) {
-
-    .place {
         gap: 32px;
         grid-template-areas:
         "title"

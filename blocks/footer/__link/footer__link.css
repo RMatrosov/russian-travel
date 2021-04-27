@@ -1,5 +1,5 @@
 .footer__link {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     font-weight: normal;
     font-size: 16px;
@@ -13,7 +13,6 @@
 }
 
 @media (max-width: 700px) {
-
     .footer__link {
         padding-top: 32px;
         font-size: 24px;
